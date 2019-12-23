@@ -16,7 +16,7 @@ def directors_totals(nds)
  new_hash={}
    
   row_index=0 
-  while  row_index<directors_database.length+1 do
+  while  row_index<directors_database.length do
     total=0
     inner_index=0 
     while inner_index<directors_database[row_index][:movies].length do 
