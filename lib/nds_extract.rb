@@ -31,7 +31,7 @@ def directors_totals(nds)
    # new_hash[director.to_sym]=director
    #new_hash={director=>total}
     new_hash[director]=total
-    puts  new_hash
+    #puts  new_hash
     row_index+=1
   end
 
