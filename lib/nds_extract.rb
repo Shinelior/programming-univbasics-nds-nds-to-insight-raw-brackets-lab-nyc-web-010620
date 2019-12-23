@@ -23,7 +23,7 @@ def directors_totals(nds)
       total+=directors_database[row_index][:movies][inner_index][:worldwide_gross]  
       inner_index+=1  
     end 
-    #puts "#{total}"
+    puts "#{total}"
     director=directors_database[row_index][:name]
    # "director:total".to_hash
    # puts "#{director}"
